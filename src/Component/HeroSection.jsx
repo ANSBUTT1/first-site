@@ -11,7 +11,7 @@ const HeroSection = () => {
         <p className="text-xl mb-6 max-w-lg">
           At  Vise Tech , we specialize in providing innovative solutions to help your business thrive in the digital world. From custom web development to expert digital marketing strategies, our team is dedicated to your success.
         </p>
-        <button className="py-3 px-8 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition duration-300">
+        <button className="py-3 px-8 bg-white text-black font-semibold rounded-lg hover:bg-primaryColor transition duration-300">
           Get Started
         </button>
       </div>

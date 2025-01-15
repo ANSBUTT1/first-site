@@ -1,9 +1,11 @@
 import React from 'react';
-
+import img1 from '../Component/imgnine.jpg'
+import img2 from '../Component/imgseven.jpg';
+import img3 from '../Component/imgeight.jpg';
 const Services = () => {
   return (
-    <div className="bg-gray-50 py-16">
-      <div className="container mx-auto px-4 text-center">
+    <div className="bg-gray-50 py-16 ">
+      <div className="container mx-auto px-4 text-center ">
         {/* Title Section */}
         <h2 className="text-4xl font-extrabold text-gray-800 mb-6">Our Premium Services</h2>
         <p className="text-xl text-gray-600 mb-16">
@@ -16,7 +18,7 @@ const Services = () => {
           {/* Service 1 */}
           <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden w-80 hover:shadow-2xl transition-shadow duration-300">
             <img
-              src="https://via.placeholder.com/600x400"
+              src={img1}
               alt="Service 1"
               className="w-full h-64 object-cover"
             />
@@ -36,7 +38,7 @@ const Services = () => {
           {/* Service 2 */}
           <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden w-80 hover:shadow-2xl transition-shadow duration-300">
             <img
-              src="https://via.placeholder.com/600x400"
+              src={img2 }
               alt="Service 2"
               className="w-full h-64 object-cover"
             />
@@ -56,7 +58,7 @@ const Services = () => {
           {/* Service 3 */}
           <div className="flex flex-col bg-white rounded-lg shadow-lg overflow-hidden w-80 hover:shadow-2xl transition-shadow duration-300">
             <img
-              src="https://via.placeholder.com/600x400"
+              src={img3}
               alt="Service 3"
               className="w-full h-64 object-cover"
             />
@@ -75,6 +77,7 @@ const Services = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
