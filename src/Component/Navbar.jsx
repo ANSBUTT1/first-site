@@ -42,10 +42,10 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/services"
+              to="/Projact"
               className="relative group text-white  transition-all duration-300"
             >
-              Services
+              Projact
               <span className="absolute left-0 bottom-0 w-0 h-[4px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
             </Link>
           </li>
