@@ -28,7 +28,7 @@ const Navbar = () => {
               className="relative group text-white  transition-all duration-300"
             >
               Home
-              <span className="absolute left-0 bottom-0 w-0 h-[3px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
+              <span className="absolute left-0 bottom-0 w-0 h-[4px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
             </Link>
           </li>
           <li>
@@ -37,7 +37,7 @@ const Navbar = () => {
               className="relative group text-white  transition-all duration-300"
             >
               About
-              <span className="absolute left-0 bottom-0 w-0 h-[3px] rounded-lg bg-primaryColor  transition-all duration-500 group-hover:w-full"></span>
+              <span className="absolute left-0 bottom-0 w-0 h-[4px] rounded-lg bg-primaryColor  transition-all duration-500 group-hover:w-full"></span>
             </Link>
           </li>
           <li>
@@ -46,7 +46,7 @@ const Navbar = () => {
               className="relative group text-white  transition-all duration-300"
             >
               Services
-              <span className="absolute left-0 bottom-0 w-0 h-[3px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
+              <span className="absolute left-0 bottom-0 w-0 h-[4px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
             </Link>
           </li>
           <li>
@@ -55,7 +55,7 @@ const Navbar = () => {
               className="relative group text-white  transition-all duration-300"
             >
               Contact
-              <span className="absolute left-0 bottom-0 w-0 h-[3px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
+              <span className="absolute left-0 bottom-0 w-0 h-[4px] rounded-lg bg-primaryColor transition-all duration-500 group-hover:w-full"></span>
             </Link>
           </li>
         </ul>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
           {/* Sign In Button */}
           <Link
-            to="/signin"
+            to="/login"
             className="px-5 py-2 hover:bg-primaryColor   bg-white text-primaryColor hover:text-white rounded-full text-sm font-medium hover:bg-[#F97316]/90 transition-all duration-300"
           >
             Login
