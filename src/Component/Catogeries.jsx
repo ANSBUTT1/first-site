@@ -16,7 +16,7 @@ const Categories = () => {
         {/* About Me Section */}
         <section className="container mx-auto w-full p-8 ">
           <div className="text-center">
-            <h2 className="text-3xl font-semibold text-white mb-4">About Me</h2>
+            <h2 className="text-3xl font-semibold text-black mb-4">About Me</h2>
             <p className="text-lg text-white">
               Hi, I'm John Doe, a passionate Frontend Developer with a focus on creating intuitive, dynamic, and responsive web applications. I specialize in JavaScript, React, HTML5, CSS3, and modern frontend frameworks. I love solving problems and transforming designs into seamless user experiences.
             </p>
