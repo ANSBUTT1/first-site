@@ -3,6 +3,7 @@ import HeroSection from "../Component/HeroSection";
 import Catogeries from "../Component/Catogeries";
 import Testimonial from "../Component/Testimonial";
 import Slider from "../Component/Slider";
+import Contact from "../Component/Contact";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       {/* Testimonial Section */}
       <Testimonial />
       <Slider />
+      <Contact/>
       
     </div>
   );
