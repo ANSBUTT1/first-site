@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Business from '../assets/personal.jpg'
 
 const Categories = () => {
