@@ -6,7 +6,6 @@ const Signup = () => {
     name: '',
     email: '',
     phone: '',
-    address: '',
     password: '',
   });
 
@@ -25,19 +24,19 @@ const Signup = () => {
   };
 
   return (
-    <div className="flex gap-16 min-h-screen items-center justify-center ">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 min-h-screen items-center justify-center p-4">
       {/* Left side with image */}
-      <div className="w-1/2">
+      <div className=" hidden md:flex w-full lg:w-1/2">
         <img
           src={image}
           alt="Signup Illustration"
-          className="h-full w-full object-cover rounded-l-lg shadow "
+          className="w-full h-64 lg:h-full object-cover rounded-lg shadow-lg"
         />
-      </div>    
+      </div>
 
       {/* Right side with form */}
-      <div className="bg-white text-black p-8 rounded-lg shadow-xl border border-black/40 w-1/3">
-        <h2 className="text-3xl font-bold text-center mb-6">Sign Up</h2>
+      <div className="bg-white text-black p-6 lg:p-8 rounded-lg shadow-xl border border-black/40 w-full lg:w-1/3">
+        <h2 className="text-2xl lg:text-3xl font-bold text-center mb-6">Sign Up</h2>
         <form onSubmit={handleSignup}>
           {/* Name Field */}
           <div className="mb-4">
@@ -87,7 +86,7 @@ const Signup = () => {
             />
           </div>
 
-         
+          {/* Password Field */}
           <div className="mb-6">
             <label htmlFor="password" className="block text-lg font-semibold mb-2">
               Password
@@ -106,9 +105,9 @@ const Signup = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full p-3 text-xl bg-primaryColor text-white font-semibold rounded-md hover:bg-primaryColor/80 focus:outline-none"
+            className="w-full p-3 text-lg bg-primaryColor text-white font-semibold rounded-md hover:bg-primaryColor/80 focus:outline-none"
           >
-            SignUp
+            Sign Up
           </button>
         </form>
 
@@ -116,7 +115,7 @@ const Signup = () => {
         <div className="mt-4 text-center">
           <p className="text-sm">
             Already have an account?{' '}
-            <a href="/login" className="text-black font-semibold hover:underline">
+            <a href="/login" className="text-primaryColor font-semibold hover:underline">
               Log In
             </a>
           </p>
