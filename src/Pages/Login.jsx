@@ -15,7 +15,7 @@ const Login = () => {
   return (
     <div className="flex gap-16 min-h-screen  items-center justify-center">
       {/* Left side with image */}
-      <div className="w-1/2">
+      <div className=" hidden md:flex w-1/2">
         <img
           src={Imagesignin}
           alt="Login Image"
@@ -24,7 +24,7 @@ const Login = () => {
       </div>
 
       {/* Right side with form */}
-      <div className="bg-white text-black p-8 rounded-lg shadow-xl border border-black/40 w-1/3">
+      <div className="bg-white text-black p-8 rounded-lg shadow-xl border border-black/40 md:w-1/3">
         <h2 className="text-3xl font-bold text-center mb-6">Login</h2>
         <form onSubmit={handleLogin}>
           <div className="mb-4">

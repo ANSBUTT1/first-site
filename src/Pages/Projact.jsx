@@ -1,6 +1,6 @@
 import React from 'react';
-import { BriefcaseIcon, ArrowTrendingUpIcon, BanknotesIcon } from '@heroicons/react/24/solid';
-import { GoArrowUpRight } from "react-icons/go";
+import { FaSuitcase, FaArrowUp, FaMoneyBillWave } from 'react-icons/fa'; // React Icons
+import { GoArrowUpRight } from "react-icons/go"; // React Icons
 
 const PortfolioCard = ({ title, description, skills, buttonText, icon }) => {
   return (
@@ -37,45 +37,45 @@ const Portfolio = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 p-6 mt-20 hover:shadow-[#f97316] ">
-  <PortfolioCard
-    title="Web Development"
-    description="Building user-friendly and scalable websites."
-    skills={[
-      "HTML, CSS, JavaScript",
-      "React, Node.js",
-      "Responsive Design",
-      "SEO Optimization"
-    ]}
-    buttonText="View Project"
-    icon={<BriefcaseIcon className="h-6 w-6 text-[#f97316]" />}
-  />
+        <PortfolioCard
+          title="Web Development"
+          description="Building user-friendly and scalable websites."
+          skills={[
+            "HTML, CSS, JavaScript",
+            "React, Node.js",
+            "Responsive Design",
+            "SEO Optimization"
+          ]}
+          buttonText="View Project"
+          icon={<FaSuitcase className="h-6 w-6 text-[#f97316]" />}
+        />
 
-  <PortfolioCard
-    title="App Development"
-    description="Developing intuitive mobile applications."
-    skills={[
-      "React Native",
-      "Swift, Kotlin",
-      "APIs Integration",
-      "Cross-Platform Development"
-    ]}
-    buttonText="View Project"
-    icon={<ArrowTrendingUpIcon className="h-6 w-6 text-[#f97316]" />}
-  />
+        <PortfolioCard
+          title="App Development"
+          description="Developing intuitive mobile applications."
+          skills={[
+            "React Native",
+            "Swift, Kotlin",
+            "APIs Integration",
+            "Cross-Platform Development"
+          ]}
+          buttonText="View Project"
+          icon={<FaArrowUp className="h-6 w-6 text-[#f97316]" />}
+        />
 
-  <PortfolioCard
-    title="UI/UX Design"
-    description="Designing visually appealing and user-centric interfaces."
-    skills={[
-      "Figma, Sketch, Adobe XD",
-      "Wireframes & Prototypes",
-      "User Research",
-      "Interaction Design"
-    ]}
-    buttonText="View Project"
-    icon={<BanknotesIcon className="h-6 w-6 text-[#f97316]" />}
-  />
-</div>
+        <PortfolioCard
+          title="UI/UX Design"
+          description="Designing visually appealing and user-centric interfaces."
+          skills={[
+            "Figma, Sketch, Adobe XD",
+            "Wireframes & Prototypes",
+            "User Research",
+            "Interaction Design"
+          ]}
+          buttonText="View Project"
+          icon={<FaMoneyBillWave className="h-6 w-6 text-[#f97316]" />}
+        />
+      </div>
 
       <div className="text-center mt-20">
         <h1 className="text-4xl mb-4 font-sans font-[80px]">Professional Experience</h1>
@@ -84,7 +84,7 @@ const Portfolio = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 mt-20 ">
         {/* Project 1 */}
-        <div className="bg-gray-100 rounded-lg p-6 text-center  hover:shadow-lg hover:shadow-[#f97316] transition-all border hover:border-[#f97316] ">
+        <div className="bg-gray-100 rounded-lg p-6 text-center hover:shadow-lg hover:shadow-[#f97316] transition-all border hover:border-[#f97316] ">
           <h3 className="text-xl font-semibold mb-2 text-[#333]">E-commerce Website</h3>
           <p className="text-base text-gray-600">Built a full-stack e-commerce platform for a local business, optimizing user experience and performance.</p>
           <ul className="space-y-2 text-gray-600 text-sm mt-4 ">
