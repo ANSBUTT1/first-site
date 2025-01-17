@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/heroSection.png";  // Ensure the image path is correct
+import image from "../assets/heropic.jpg";  // Ensure the image path is correct
 import { ReactTyped } from "react-typed";
 
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
         <img
           src={image}
           alt="Professional Portfolio"
-          className="max-w-full h-auto rounded-lg shadow-lg shadow-lg  border-[#f97316] shadow-[#f97316] "
+          className="max-w-full h-auto rounded-lg shadow-lg border-[#f97316] shadow-[#f97316] "
         />
       </div>
     </div>
