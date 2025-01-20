@@ -9,10 +9,14 @@ import Footer from "./Component/Footer";
 import Login from "./Pages/Login";
 import Signup from "./Component/Signup";
 import Contact from "./Component/Contact";
+import ScrollToTop from "./Component/Button-Scrool";
+import Cursor from "./Component/Cursor";
 
 function App() {
   return (
     <>
+    <Cursor/>
+<ScrollToTop/>   
       <Navbar />
    
       <Routes>  {/* Directly use Routes here */}
@@ -24,10 +28,11 @@ function App() {
        
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
-      
+     
 
       </Routes>
       <Footer/>
+     
     </>
   );
 }

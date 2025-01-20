@@ -81,7 +81,7 @@ const Contact = () => {
         </p>
         <div className="mt-8">
           <a
-            href="https://www.linkedin.com/in/shezad-ahmed"
+            href="https://www.linkedin.com/in/shezad-ahmed-35406a324/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#f97316] font-semibold hover:underline"
