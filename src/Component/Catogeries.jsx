@@ -6,7 +6,7 @@ const Categories = () => {
   return (
     <>
     
-    <div className="flex flex-wrap justify-center space-x-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-screen-xl mx-auto">  
+    <div id='down' className="flex flex-wrap justify-center space-x-6 bg-gray-100 p-6 rounded-lg shadow-md max-w-screen-xl mx-auto">  
 
 {/* Variation 1: Code and Calm */}  
 <div className="flex flex-col items-center bg-white p-4 rounded-lg shadow w-80">  
